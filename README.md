@@ -86,21 +86,6 @@ pip install -r requirements.txt
 streamlit run App.py
 ```
 
-Then open http://localhost:8501.
-
-## Project Structure
-
-```
-├── App.py            # Streamlit app
-├── Heart.ipynb       # EDA and model training notebook
-├── KNN_heart.pkl     # Trained KNN model
-├── Scaler.pkl        # Fitted scaler
-├── Columns.pkl       # Expected feature columns
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
 ## Dataset
 
 [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) (Kaggle, fedesoriano), 918 records.
